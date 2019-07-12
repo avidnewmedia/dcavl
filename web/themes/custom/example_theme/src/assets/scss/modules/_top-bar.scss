@@ -1,0 +1,14 @@
+// Prevent menu flash on page load for mobile.
+@include breakpoint(medium down) {
+	html.no-js {
+		.top-bar .top-bar-right {
+			display: none;
+		}
+	}
+}
+
+@include breakpoint(large) {
+	.top-bar .search-block-form {
+		margin-left: 1rem;
+	}
+}

@@ -1,0 +1,15 @@
+// Base styles
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+// Name spaces
+.clearfix {
+	@include clearfix;
+}
+
+// Foundation tooltips overrides.
+.has-tip {
+	@include remove-outline;
+}

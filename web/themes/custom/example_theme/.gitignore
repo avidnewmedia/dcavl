@@ -1,0 +1,3 @@
+# Ignore dist folder as we will be generating this via ci
+dist
+src/assets/fonts

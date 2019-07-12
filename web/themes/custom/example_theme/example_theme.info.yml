@@ -1,0 +1,41 @@
+name: Example Theme
+type: theme
+description: A Drupal 8 theme based on ZURB Template powered by ZURB Foundation 6. Inherits from the ZURB Template base theme.
+core: 8.x
+
+# Screenshot as seen on admin/appearance
+screenshot: dist/assets/images/screenshot.jpg
+
+# Libraries
+libraries:
+  - example_theme/global
+
+# Use ZURB Template as our base theme
+base theme: zurb_template
+
+# Remove ZURB Template base theme CSS and JS files as we will be generating our own
+libraries-override:
+  zurb_template/global: false
+
+# Regions
+regions:
+  page_top: 'Page top'
+  header: Header
+  meta_header: 'Meta header'
+  help: Help
+  highlighted: Highlighted
+  content: Content
+  footer: Footer
+#  @todo: left_off_canvas: 'Left off canvas'
+#  @todo: right_off_canvas: 'Right off canvas'
+  page_bottom: 'Page bottom'
+regions_hidden:
+  page_top: 'Page Top'
+  page_bottom: 'Page bottom'
+
+# Features
+features:
+  - logo
+  - name
+  - slogan
+  - favicon

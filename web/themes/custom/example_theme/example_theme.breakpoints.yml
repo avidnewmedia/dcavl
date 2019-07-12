@@ -1,0 +1,30 @@
+example_theme.small_only:
+  label: small_only
+  mediaQuery: 'screen and (max-width: 39.9375em)'
+  weight: 1
+  multipliers:
+    - 1x
+example_theme.medium_up:
+  label: medium_up
+  mediaQuery: 'screen and (min-width: 40em)'
+  weight: 2
+  multipliers:
+    - 1x
+example_theme.medium_only:
+  label: medium_only
+  mediaQuery: 'screen and (min-width: 40em) and (max-width: 63.9375em)'
+  weight: 3
+  multipliers:
+    - 1x
+example_theme.large_up:
+  label: large_up
+  mediaQuery: 'screen and (min-width: 64em)'
+  weight: 4
+  multipliers:
+    - 1x
+example_theme.large_only:
+  label: large_only
+  mediaQuery: 'screen and (min-width: 64em) and (max-width: 74.9375em)'
+  weight: 6
+  multipliers:
+    - 1x

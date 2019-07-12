@@ -1,0 +1,23 @@
+features:
+  comment_user_picture: true
+  favicon: 1
+  logo: true
+  name: true
+  node_user_picture: true
+settings:
+  zurb_template_top_bar_enable: '1'
+  zurb_template_top_bar_grid: 0
+  zurb_template_top_bar_sticky: 0
+  zurb_template_top_bar_is_hover: 0
+  zurb_template_top_bar_menu_text: Menu
+  zurb_template_top_bar_search: 1
+  zurb_template_page_site_name: 1
+  zurb_template_page_site_logo: 1
+  zurb_template_page_account_info: 1
+langcode: en
+_core:
+  default_config_hash: DRqwH8e9zjMkvqd7Aw4Kz9qmQhiwVSJn9GbhQpV_lxQ
+logo:
+  use_default: 1
+favicon:
+  use_default: 1
