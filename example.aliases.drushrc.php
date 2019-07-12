@@ -3,7 +3,7 @@
   // Alias for the local environment.
   $aliases['_local'] = array (
     'uri' => 'http://example.lndo.site',
-    'root' => '/private/var/www/example.gov/www/web',
+    'root' => '/private/var/www/example.com/www/web',
   );
 
   // Aliases to pantheon multidev environments.
