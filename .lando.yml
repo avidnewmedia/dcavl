@@ -1,8 +1,40 @@
 name: example
 recipe: drupal8
 config:
-  via: nginx
   webroot: web
+  via: nginx
   php: '7.2'
   xdebug: true
-  database: mariadb:latest
+  database: mariadb
+  drush: ^8
+services:
+  appserver:
+    build:
+      - composer install
+  phpma:
+    type: phpmyadmin
+  solr:
+    type: solr:6.6
+    portforward: 8983
+    config:
+      dir: config/solr/6.x
+  node:
+    type: node
+    build:
+      - npm install
+      - npm run build
+events:
+  post-rebuild:
+    - drush config-import -y
+    - drush updatedb -y
+    - drush cache-rebuild
+proxy:
+  phpma:
+    - phpma.example.lndo.site
+  solr:
+    - solr.example.lndo.site:8983
+tooling:
+  npm:
+    service: node
+  node:
+    service: node
