@@ -1,0 +1,25 @@
+uuid: c6152789-c305-416a-a00c-b0c34c8f9222
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - zurb_template
+_core:
+  default_config_hash: 9m-n_GX-3Xs3kgmg4DStLN542s1TcDVSaKAqrUgHApk
+id: zurb_template_branding
+theme: zurb_template
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: 0bfebbc6-8d76-4fa2-acde-30c422face99
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - zurb_template
+_core:
+  default_config_hash: dl6em7__bXjfLf0oL6lxGeuGhjk57w4AkjHWNem6quY
+id: zurb_template_main_menu
+theme: zurb_template
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,32 @@
+features:
+  comment_user_picture: true
+  favicon: 1
+  logo: true
+  name: true
+  node_user_picture: true
+settings:
+  zurb_template_top_bar_enable: '1'
+  zurb_template_top_bar_grid: false
+  zurb_template_top_bar_sticky: false
+  zurb_template_top_bar_is_hover: false
+  zurb_template_top_bar_menu_text: Menu
+  zurb_template_top_bar_search: true
+  zurb_template_page_site_name: true
+  zurb_template_page_site_logo: true
+  zurb_template_page_account_info: true
+langcode: en
+_core:
+  default_config_hash: L08BxxOiKA8QvhBAOXdzywI_lJzGyVNm3a5-8Fgk3iM
+logo:
+  use_default: 1
+favicon:
+  use_default: 1
+zurb_template_top_bar_enable: '1'
+zurb_template_top_bar_grid: 0
+zurb_template_top_bar_sticky: 1
+zurb_template_top_bar_is_hover: 0
+zurb_template_top_bar_menu_text: ''
+zurb_template_top_bar_search: 0
+zurb_template_page_site_name: 1
+zurb_template_page_site_logo: 1
+zurb_template_page_account_info: 1

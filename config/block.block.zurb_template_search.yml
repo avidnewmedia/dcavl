@@ -1,0 +1,22 @@
+uuid: 7cfb171f-21db-4ae4-85c0-2bdf17efe8f3
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - zurb_template
+_core:
+  default_config_hash: euzXOWI-kuXHDSjyEYs768kBEQjTGx9Joo0R5hnXmJY
+id: zurb_template_search
+theme: zurb_template
+region: content
+weight: -2
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

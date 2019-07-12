@@ -1,0 +1,20 @@
+uuid: abe46732-940c-44a4-b913-d6e97e62a296
+langcode: en
+status: true
+dependencies:
+  theme:
+    - zurb_template
+_core:
+  default_config_hash: NfDrHm0sZom7pZ8Kg4Pw3KHkd5J30SbtptbJOy1MwJE
+id: zurb_template_page_title
+theme: zurb_template
+region: content
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
