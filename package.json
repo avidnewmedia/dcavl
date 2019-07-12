@@ -1,0 +1,10 @@
+{
+  "name": "example.lndo.site",
+  "version": "1.0.0",
+  "description": "A starter package.json file for example.lndo.site",
+  "scripts": {
+    "install": "cd web/themes/custom/example_theme ; npm install",
+    "start": "cd web/themes/custom/example_theme ; npm start",
+    "build": "cd web/themes/custom/example_theme ; npm run build"
+  }
+}
